@@ -1,12 +1,14 @@
-##项目的简介
+## 项目的简介
 此项目为优达学城的订阅阅读器项目，通过编写[jasmine](https://github.com/jasmine/jasmine)的测试用例来学习前端自动化测试的概念
-##项目下载
+
+## 项目下载
 [Rss 订阅阅读器应用](https://github.com/workcheng/Feed-Reader-Testing_zh)
-##项目运行
+
+## 项目运行
  - 需要可以访问外网的浏览器打开[index.html](https://github.com/workcheng/Feed-Reader-Testing_zh/blob/master/index.html)
  - 当出现7个绿色的点说明七个测试用例通过
  
-##项目结构
+## 项目结构
 ````
  --css       样式
  --fonts     字体
