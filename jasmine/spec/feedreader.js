@@ -36,7 +36,7 @@ $(function() {
         /* TODO:
          * 编写一个测试遍历 allFeeds 对象里面的所有的源来保证有名字字段而且不是空的。
          */
-        it('allFeeds 对象里面的所有的源来保证有名字字段而且不是空的',function (feed) {
+        it('allFeeds 对象里面的所有的源来保证有名字字段而且不是空的',function () {
             allFeeds.forEach(function (feed) {
                 expect(feed.name).toBeDefined();
                 expect(feed.name).not.toEqual("");
@@ -87,7 +87,7 @@ $(function() {
                 done();
             })
         })
-        it('loadFeed 函数被调用而且工作正常,即在 .feed 容器元素里面至少有一个 .entry 的元素。',function (done) {
+        it('loadFeed 函数被调用而且工作正常,即在 .feed 容器元素里面至少有一个 .entry 的元素。',function () {
           expect($('.feed .entry').length).not.toEqual(0)
         })
 
@@ -116,7 +116,7 @@ $(function() {
             })
         })
 
-        it('保证当用 loadFeed 函数加载一个新源的时候内容会真的改变。',function (done) {
+        it('保证当用 loadFeed 函数加载一个新源的时候内容会真的改变。',function () {
             expect($(".feed").html()).not.toEqual(initHTML);
         })
     })
